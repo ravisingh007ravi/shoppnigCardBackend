@@ -1,0 +1,25 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "this is a server site ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx modemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravisingh007ravi/shoppnigCardBackend.git"
+  },
+  "author": "Ravi Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravisingh007ravi/shoppnigCardBackend/issues"
+  },
+  "homepage": "https://github.com/ravisingh007ravi/shoppnigCardBackend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
